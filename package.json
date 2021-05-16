@@ -1,0 +1,20 @@
+{
+  "name": "absolutejshash",
+  "version": "1.1.0",
+  "description": "Node.js hash functions for Absolute",
+  "main": "absolutejshash",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/absolute-community/absolute-jshash.git"
+  },
+  "dependencies": {
+    "nan": "latest",
+    "bindings": "latest",
+    "node-gyp": "latest"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "gypfile": true
+}
